@@ -1,2 +1,3 @@
-# SimpleJsGame
-Very simple Javascript game
+# Simple Javascript Clicket game
+
+Website : https://clickerjsgame.netlify.app/
