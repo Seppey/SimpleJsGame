@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Javascript Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Click Buttom Game</h1>
+    <p>Click the button as much as you can in 10 seconds!</p>
+    <button id="clickButton" onclick="increaseScore()">Click</button>
+    <p>Score: <span id="score">0</span></p>
+    <div id="popup" class="popup">
+        <p>Time's up! Your final score is <span id="finalScore"></span>.</p>
+        <button onclick="playAgain()">Play Again</button>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
